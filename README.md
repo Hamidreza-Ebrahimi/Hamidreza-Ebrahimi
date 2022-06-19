@@ -14,3 +14,13 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+- 🌱 I’m currently learning C++ & Python
+- 😄 Pronouns: He/Him
+
+<a href="https://github.com/Hamidreza-Ebrahimi">
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=Hamidreza-Ebrahimi&show_icons=true&count_private=true&include_all_commits=true&theme=synthwave" /></a>
+
+<a href="https://github.com/Hamidreza-Ebrahimi">
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hamidreza-Ebrahimi&theme=synthwave" />
+</a>
