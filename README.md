@@ -6,7 +6,7 @@
 
   <!-- Neon Typing Effect -->
   <h1>
-    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=35&pause=1000&color=00FFFF&center=true&vCenter=true&width=800&lines=Hi,+I'm+Hamidreza+Ebrahimi;Computer+Science+Student;Building+Things+With+AI;Welcome+to+the+Grid..." alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=35&pause=1000&color=00FFFF&center=true&vCenter=true&width=800&lines=Hi,+I'm+Hamidreza+Ebrahimi;Computer+Science+Student;Building+Projects+With+AI;Welcome+to+the+Grid..." alt="Typing SVG" />
   </h1>
 
   <!-- Neon Social Badges -->
