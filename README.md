@@ -2,12 +2,11 @@
   <img src="assets/banner.svg" width="100%" alt="">
 
   <h1>
-    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=35&pause=1200&color=00FFFF&center=true&vCenter=true&width=800&lines=Hamidreza+Ebrahimi;Computer+Science+Student;Building+Software+With+AI;Documentation+That+Answers+the+Question" alt="Hamidreza Ebrahimi" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&pause=1200&color=00FF41&center=true&vCenter=true&width=800&lines=Hamidreza+Ebrahimi;Computer+Science+Student;Building+Software+With+AI;Documentation+That+Answers+the+Question" alt="Hamidreza Ebrahimi" />
   </h1>
 
   <p>
-    <a href="mailto:major.hamidreza@gmail.com"><img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=FFFF00" alt="Email"></a>
-    <a href="https://github.com/Hamidreza-Ebrahimi/s24-ultra-camera-guide"><img src="https://img.shields.io/badge/S24_Ultra_Camera_Guide-000000?style=for-the-badge&logo=github&logoColor=00FFFF" alt="S24 Ultra Camera Guide"></a>
+    <a href="mailto:major.hamidreza@gmail.com"><img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=00FF41" alt="Email"></a>
   </p>
 </div>
 
@@ -24,7 +23,7 @@
 ### Featured
 
 <a href="https://github.com/Hamidreza-Ebrahimi/s24-ultra-camera-guide">
-  <img src="assets/guide-preview.png" width="100%" alt="Two pages from the S24 Ultra camera guide: the hardware table and the zoom ladder">
+  <img src="assets/guide-preview.png" width="100%" alt="The S24 Ultra camera guide, rendered as a web page">
 </a>
 
 **[The Professional Camera Guide — Samsung Galaxy S24 Ultra](https://github.com/Hamidreza-Ebrahimi/s24-ultra-camera-guide)**
@@ -35,9 +34,9 @@ like a manual camera, and a scene-by-scene playbook from night cityscapes to ast
 Written in Markdown and built to HTML and PDF from a single source.
 
 <p align="center">
-  <a href="https://github.com/Hamidreza-Ebrahimi/s24-ultra-camera-guide#readme"><img src="https://img.shields.io/badge/Read-000000?style=for-the-badge&logo=markdown&logoColor=00FFFF" alt="Read on GitHub"></a>
-  <a href="https://github.com/Hamidreza-Ebrahimi/s24-ultra-camera-guide/blob/main/README.pdf"><img src="https://img.shields.io/badge/PDF-000000?style=for-the-badge&logo=files&logoColor=FF00FF" alt="PDF"></a>
-  <a href="https://github.com/Hamidreza-Ebrahimi/s24-ultra-camera-guide/blob/main/build.py"><img src="https://img.shields.io/badge/Build_script-000000?style=for-the-badge&logo=python&logoColor=FFFF00" alt="Build script"></a>
+  <a href="https://github.com/Hamidreza-Ebrahimi/s24-ultra-camera-guide#readme"><img src="https://img.shields.io/badge/Read-000000?style=for-the-badge&logo=markdown&logoColor=00FF41" alt="Read on GitHub"></a>
+  <a href="https://github.com/Hamidreza-Ebrahimi/s24-ultra-camera-guide/blob/main/README.pdf"><img src="https://img.shields.io/badge/PDF-000000?style=for-the-badge&logo=files&logoColor=7CFF8C" alt="PDF"></a>
+  <a href="https://github.com/Hamidreza-Ebrahimi/s24-ultra-camera-guide/blob/main/build.py"><img src="https://img.shields.io/badge/Build_script-000000?style=for-the-badge&logo=python&logoColor=00FF41" alt="Build script"></a>
 </p>
 
 <br>
@@ -45,14 +44,14 @@ Written in Markdown and built to HTML and PDF from a single source.
 ### Tools
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=00FFFF" alt="Python" />
-  <img src="https://img.shields.io/badge/FastAPI-000000?style=for-the-badge&logo=fastapi&logoColor=FF00FF" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/SQLite-000000?style=for-the-badge&logo=sqlite&logoColor=FFFF00" alt="SQLite" />
-  <img src="https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=00FFFF" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=FF00FF" alt="Docker" />
+  <img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=00FF41" alt="Python" />
+  <img src="https://img.shields.io/badge/FastAPI-000000?style=for-the-badge&logo=fastapi&logoColor=7CFF8C" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/SQLite-000000?style=for-the-badge&logo=sqlite&logoColor=00FF41" alt="SQLite" />
+  <img src="https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=00FF41" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=7CFF8C" alt="Docker" />
   <br>
-  <img src="https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=FFFF00" alt="Git" />
-  <img src="https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=00FFFF" alt="Linux" />
-  <img src="https://img.shields.io/badge/LaTeX-000000?style=for-the-badge&logo=latex&logoColor=FF00FF" alt="LaTeX" />
-  <img src="https://img.shields.io/badge/Pandoc-000000?style=for-the-badge&logo=markdown&logoColor=FFFF00" alt="Pandoc" />
+  <img src="https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=00FF41" alt="Git" />
+  <img src="https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=00FF41" alt="Linux" />
+  <img src="https://img.shields.io/badge/LaTeX-000000?style=for-the-badge&logo=latex&logoColor=7CFF8C" alt="LaTeX" />
+  <img src="https://img.shields.io/badge/Pandoc-000000?style=for-the-badge&logo=markdown&logoColor=00FF41" alt="Pandoc" />
 </div>
