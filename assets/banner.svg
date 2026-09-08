@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Synthwave horizon with an eclipsed sun">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#05010f"/>
+      <stop offset="0.65" stop-color="#160535"/>
+      <stop offset="1" stop-color="#2a0a4a"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a0536"/>
+      <stop offset="1" stop-color="#05010f"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00ffff"/>
+      <stop offset="0.5" stop-color="#ff5ce6"/>
+      <stop offset="1" stop-color="#ffd400"/>
+    </linearGradient>
+    <linearGradient id="haze" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff00ff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#ff00ff" stop-opacity="0.35"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="bigglow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+    <filter id="softglow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="above"><rect x="0" y="0" width="1200" height="200"/></clipPath>
+    <clipPath id="below"><rect x="0" y="200" width="1200" height="120"/></clipPath>
+    <clipPath id="ringclip"><circle cx="600" cy="196" r="84"/></clipPath>
+  </defs>
+
+  <!-- sky -->
+  <rect width="1200" height="200" fill="url(#sky)"/>
+  <!-- stars -->
+  <g fill="#ffffff" opacity="0.85">
+    <circle cx="62" cy="38" r="1.2"/><circle cx="140" cy="92" r="0.9"/><circle cx="210" cy="24" r="1.4"/>
+    <circle cx="288" cy="120" r="0.8"/><circle cx="340" cy="58" r="1.1"/><circle cx="412" cy="140" r="0.9"/>
+    <circle cx="470" cy="30" r="1.3"/><circle cx="760" cy="44" r="1.2"/><circle cx="820" cy="110" r="0.9"/>
+    <circle cx="890" cy="26" r="1.4"/><circle cx="950" cy="88" r="0.8"/><circle cx="1010" cy="140" r="1.0"/>
+    <circle cx="1080" cy="52" r="1.3"/><circle cx="1150" cy="118" r="0.9"/><circle cx="1180" cy="20" r="1.1"/>
+    <circle cx="520" cy="96" r="0.8"/><circle cx="700" cy="128" r="0.9"/><circle cx="110" cy="160" r="0.9"/>
+    <circle cx="1120" cy="170" r="0.8"/><circle cx="380" cy="176" r="0.7"/>
+  </g>
+
+  <!-- eclipsed sun: black disc with a glowing ring, echoing the avatar -->
+  <g clip-path="url(#above)">
+    <circle cx="600" cy="196" r="92" fill="#ff5ce6" opacity="0.35" filter="url(#bigglow)"/>
+    <circle cx="600" cy="196" r="78" fill="none" stroke="url(#ring)" stroke-width="10" filter="url(#glow)"/>
+    <circle cx="600" cy="196" r="70" fill="#05010f"/>
+    <!-- horizontal cuts across the lower half of the ring, clipped to the ring -->
+    <g fill="#05010f" clip-path="url(#ringclip)">
+      <rect x="500" y="150" width="200" height="4"/>
+      <rect x="500" y="163" width="200" height="5"/>
+      <rect x="500" y="177" width="200" height="6"/>
+      <rect x="500" y="191" width="200" height="7"/>
+    </g>
+  </g>
+
+  <!-- horizon line -->
+  <rect x="0" y="199" width="1200" height="2" fill="#00ffff" filter="url(#softglow)"/>
+
+  <!-- ground -->
+  <rect x="0" y="200" width="1200" height="120" fill="url(#ground)"/>
+  <rect x="0" y="200" width="1200" height="120" fill="url(#haze)"/>
+  <g clip-path="url(#below)" stroke="#ff2ee6" stroke-width="1.4" opacity="0.8" filter="url(#softglow)">
+    <!-- converging verticals, vanishing point (600,200) -->
+    <line x1="600" y1="200" x2="600" y2="320"/>
+    <line x1="600" y1="200" x2="720" y2="320"/><line x1="600" y1="200" x2="480" y2="320"/>
+    <line x1="600" y1="200" x2="860" y2="320"/><line x1="600" y1="200" x2="340" y2="320"/>
+    <line x1="600" y1="200" x2="1040" y2="320"/><line x1="600" y1="200" x2="160" y2="320"/>
+    <line x1="600" y1="200" x2="1300" y2="320"/><line x1="600" y1="200" x2="-100" y2="320"/>
+    <line x1="600" y1="200" x2="1700" y2="320"/><line x1="600" y1="200" x2="-500" y2="320"/>
+    <line x1="600" y1="200" x2="2400" y2="320"/><line x1="600" y1="200" x2="-1200" y2="320"/>
+    <!-- horizontals, spacing grows toward the viewer -->
+    <line x1="0" y1="206" x2="1200" y2="206"/>
+    <line x1="0" y1="214" x2="1200" y2="214"/>
+    <line x1="0" y1="225" x2="1200" y2="225"/>
+    <line x1="0" y1="240" x2="1200" y2="240"/>
+    <line x1="0" y1="260" x2="1200" y2="260"/>
+    <line x1="0" y1="287" x2="1200" y2="287"/>
+  </g>
+</svg>
