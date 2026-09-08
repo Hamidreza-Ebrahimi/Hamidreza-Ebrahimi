@@ -203,5 +203,4 @@
 <circle cx="1140" cy="168" r="8" fill="#020604" stroke="#00ff41" stroke-width="4" filter="url(#glow)"/>
 <circle cx="1140" cy="168" r="2.5" fill="#00ff41"/>
 </g>
-<text x="14" y="308" font-family="Consolas, 'Cascadia Mono', Menlo, 'Courier New', monospace" font-size="13" fill="#00ff41" opacity="0.55">&gt; building what comes next_</text>
 </svg>
