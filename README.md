@@ -2,7 +2,7 @@
   <img src="assets/banner.svg" width="100%" alt="">
 
   <h1>
-    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=35&pause=1200&color=00FFFF&center=true&vCenter=true&width=800&lines=Hamidreza+Ebrahimi;Computer+Science+Student;Building+Software+With+AI;Documentation+That+Answers+the+Question" alt="Hamidreza Ebrahimi" />
+    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=35&pause=1200&color=00FFFF&center=true&vCenter=true&width=800&lines=Hamidreza+Ebrahimi;Computer+Science+Student;Building+Software+With+AI;" alt="Hamidreza Ebrahimi" />
   </h1>
 
   <p>
